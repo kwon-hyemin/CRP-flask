@@ -8,7 +8,8 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from config import basedir
 import tensorflow.compat.v1 as tf
 from icecream import ic
-
+from matplotlib import rc, font_manager
+rc('font', family=font_manager.FontProperties(fname='C:/Windows/Fonts/malgunsl.ttf').get_name())
 import numpy as np
 
 
